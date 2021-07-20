@@ -4,7 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 1280px) and (max-width: 1920px)" href="style.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 760px) and (max-width: 1280px)" href="tablette.css"/>
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 760px)" href="mobile.css"/>
+
         <link rel="stylesheet" type="text/css" href="public/css/all.css" />
         <link rel="stylesheet" type="text/css" href="public/css/fontawesome.css" />
 
@@ -12,45 +16,73 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav id="nav1">
                 <div id="logoOnTop"><img class="logoSite" src="public/Images/logo/Reservia@3x.png"></div>
                 <div id="navBar">
                     <ul id="ulNavBar">
-                        <li class="liNavBar"><a href="#hebergementListeSection">Hébergements</a></li>
-                        <li class="liNavBar"><a href="#activitesMarseilleListe">Activités</a></li>
+                        <li class="liNavBar , mobileNavNone"><a href="#hebergementListeSection">Hébergements</a></li>
+                        <li class="liNavBar , mobileNavNone"><a href="#activitesMarseilleListe">Activités</a></li>
                         <li class="liNavBar"><a href="#">S'inscrire</a></li>
                     </ul>
+                </div>
+                <div id="mobileNav">
+                    <div id="navHebergements">
+                        <a href="#hebergementListeSection">Hébergements</a>
+                    </div>
+                    <div id="navActivites">
+                        <a href="#activitesMarseilleListe">Activités</a>
+                    </div>
                 </div>
             </nav>
         </header>
         <main>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <article>En plein centre ville ou en pleine nature</article><br>
-            <form action="" method="GET">
-                <div id="gpsImgBackground">
-                    <img id="gpsImg" src="public/Images/icons/gps.png">
-                </div>
-                <input type="text" name="location" id="locationText" placeholder="Marseille,France" required>
-                <input type="submit" value="Rechercher" id="boutonRechercher">
-            </form>
+            <section id="barreDeRecherche">
+                <form action="" method="GET">
+                    <div id="gpsImgBackground">
+                        <img id="gpsImg" src="public/Images/icons/gps.png">
+                    </div>
+                    <input type="text" name="location" id="locationText" placeholder="Marseille,France" required>
+                    <input type="submit" value="Rechercher" id="boutonRechercher">
+                </form>
+            </section>
             <section id="sectionFiltre">
                 <span id="padFiltre"> Filtres </span>
                 <section class="categorieFiltre">
                     <!-- <span class="iconFiltre"></span> -->
                     <section class="liFiltre">
-                        <img class="imgIconFiltre" src="public/Images/icons/billet.png">
-                        <a href="">Économique</a>
+                        <section class="iconFiltreBackground">
+                            <img class="imgIconFiltre" src="public/Images/icons/billet.png">
+                        </section>
+                        <section>
+                            <a href="">Économique</a>
+                        </section>
                     </section>
-                </section>
-                <section class="liFiltre">
-                    <img class="imgIconFiltre" src="public/Images/icons/famille.png">
-                    <a href="">Familial</a>
-                </section>                    <section class="liFiltre">
-                    <img class="imgIconFiltre" src="public/Images/icons/coeur.png">
-                    <a href="">Romantique</a>
-                </section>                    <section class="liFiltre">
-                    <img class="imgIconFiltre" src="public/Images/icons/chien.png">
-                    <a href="">Animaux autorisés</a>
+                    <section class="liFiltre">
+                        <section class="iconFiltreBackground">
+                            <img class="imgIconFiltre" src="public/Images/icons/famille.png">
+                        </section>
+                        <section>
+                            <a href="">Familial</a>
+                        </section>
+                    </section>
+                    <section class="liFiltre">
+                        <section class="iconFiltreBackground">
+                            <img class="imgIconFiltre" src="public/Images/icons/coeur.png">
+                        </section>
+                        <section>
+                            <a href="">Romantique</a>
+                        </section>
+                    </section>
+                    <section class="liFiltre">
+                        <section class="iconFiltreBackground">
+                            <img class="imgIconFiltre" src="public/Images/icons/chien.png">
+                        </section>
+                        <section>
+                            <a href="">Animaux autorisés</a>
+                        </section>
+                    </section>
                 </section>
             </section>
             <!-- <div id="ulFiltre">
@@ -250,23 +282,23 @@
                 <section id="aPropos">
                    <b>A propos</b>
                    <ul>
-                       <li>Fonctionnement du site</li>
-                       <li>Conditions générales de vente</li>
-                       <li>Données et confidentialité</li>
+                       <a href="#"><li>Fonctionnement du site</li></a>
+                       <a href="#"><li>Conditions générales de vente</li></a>
+                       <a href="#"><li>Données et confidentialité</li></a>
                    </ul>
                 </section>
                 <section id="nosHebergements">
                     <b>Nos hébergements</b>
                     <ul>
-                        <li>Charte qualité</li>
-                        <li>Soumettre votre hôtel</li>
+                        <a href="#"><li>Charte qualité</li></a>
+                        <a href="#"><li>Soumettre votre hôtel</li></a>
                     </ul>
                 </section>
                 <section>
                     <b>Assistance</b>
                     <ul>
-                        <li>Centre d'aide</li>
-                        <li>Nous contacter</li>
+                        <a href="#"><li>Centre d'aide</li></a>
+                        <a href="#"><li>Nous contacter</li></a>
                     </ul>
                 </section>
             </section>
