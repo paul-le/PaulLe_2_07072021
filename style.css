@@ -256,6 +256,7 @@ input{
     border-radius: 25px 25px 25px 25px;
     align-items: left;
     box-shadow:1px 1px 32px -5px rgba(0,0,0,0.76);
+    width: 30%;
 }
 
 .etoilesSection{
