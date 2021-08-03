@@ -312,6 +312,7 @@ input{
     width: 100%;
     justify-content: space-between;
     vertical-align: middle;
+    display: flex;
 }
 
 .toast2{
