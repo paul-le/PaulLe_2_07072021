@@ -155,7 +155,7 @@ input{
 
 .liFiltre{
     border-radius: 30px 30px 30px 30px;
-    border: 2px solid grey;
+    border: 2px solid #F2F2F2;
     align-items: center;
     display: flex;
     /* margin-left: 5%; */
@@ -203,6 +203,7 @@ input{
     border-radius: 50%;
     padding-left: 5px;
     padding-right: 5px;
+    object-fit: cover;
 }
 
 #hebergementListeSection{
@@ -221,16 +222,17 @@ input{
 .hebergementListeSectionImg{
     /* width: 375px;
     height: 200px; */
-    width: 98%;
-    height: 200px;
-    padding: 1%;
+    object-fit: cover;
+    width: 99%;
+    height: 150px;
+    padding: 0.1%;
     border-radius: 25px 25px 0px 0px;
 }
 
 #hebergementListe{
     display: flex;
     background-color: #F2F2F2;
-    width: 67%;
+    width: 65%;
     border-radius: 25px 25px 25px 25px;
     padding: 0.5%;
     font-weight: bold;
@@ -239,10 +241,12 @@ input{
 
 #hebergementListeLigne1{
     display: flex;
+    justify-content: space-around;
 }
 
 #hebergementListeLigne2{
     display: flex;
+    justify-content: space-around;
 }
 
 .hebergementCard{
@@ -256,7 +260,8 @@ input{
     border-radius: 25px 25px 25px 25px;
     align-items: left;
     box-shadow:1px 1px 32px -5px rgba(0,0,0,0.76);
-    width: 30%;
+    width: 27%;
+    height: 85%;
 }
 
 .etoilesSection{
@@ -282,7 +287,7 @@ input{
 }
 
 .nomHotel{
-    font-weight: bold;
+    font-weight: 900;
     font-size: 13px;
 }
 
@@ -300,9 +305,18 @@ input{
 }
 
 .titrePremierGroupe{
-    margin-left: 2%;
+    margin-left: 3%;
+    margin-top: 2%;
     font-size: 20px;
     font-weight: bolder;
+}
+
+.titrePremierGroupe2{
+    margin-left: 3%;
+    font-size: 17px;
+    font-weight: bolder;
+    padding-bottom:5%;
+    padding-top: 5%;
 }
 
 .hebergementCard2{
@@ -313,18 +327,35 @@ input{
     border-radius: 15px 15px 15px 15px;
     box-shadow:1px 1px 32px -5px rgba(0,0,0,0.76);
     width: 90%;
+    justify-content: space-between;
 
 }
 
+/* .hebergementCard3{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 1%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow:1px 1px 32px -5px rgba(0,0,0,0.76);
+    width: 90%;
+} */
+
+.imageHebergement2{
+    width: 30%;
+    display: flex;
+}
+
 .imageHebergement2 img{
+    object-fit: cover;
     width: 130px;
     height: 150px;
     border-radius: 15px 0px 0px 15px;
 }
 
 .infoHebergement2{
-    margin-left: 1%;
-    margin: 3%;
+    display: flex;
+    flex-direction: column;
 }
 
 #activitesMarseilleListe{
@@ -346,6 +377,7 @@ input{
 }
 
 #vieuxPort img{
+    object-fit: cover;
     width: 100%;
     height: 500px;
     border-radius: 15px 15px 0px 0px;
@@ -366,6 +398,7 @@ input{
 }
 
 #fortDePomegues img{
+    object-fit: cover;
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0px 0px;
@@ -379,6 +412,7 @@ input{
 }
 
 #ilesDuFrioul img{
+    object-fit: cover;
     width: 100%;
     height: 185px;
     border-radius: 15px 15px 0px 0px;
@@ -391,6 +425,7 @@ input{
 }
 
 #parcNationalCalanques img{
+    object-fit: cover;
     width: 100%;
     height: 500px;
     border-radius: 15px 15px 0px 0px;
@@ -410,6 +445,7 @@ input{
 }
 
 #notreDame img{
+    object-fit: cover;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
     height: 210px;
@@ -422,9 +458,16 @@ input{
 }
 
 #longchamp img{
+    object-fit: cover;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
     height: 210px;
+}
+
+footer{
+    align-items: left;
+    width: 100%;
+    background-color: #F2F2F2;
 }
 
 #footerNav{
@@ -432,10 +475,11 @@ input{
     padding-top: 3%;
     padding-bottom: 3%;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: #F2F2F2;
     align-items: center;
+    margin-right: 30%;
+    margin-left: 4%;
 }
 
 #footerNav ul{
@@ -518,4 +562,83 @@ input{
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+}
+
+.belowImgCard{
+    margin-left: 3%;
+    margin-top: 1.5%;
+}
+
+.nextToImgCard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 70%;
+    margin-right: 150px;
+    
+}
+
+.sectionEtoiles{
+    margin-top:20%;
+}
+
+.prixPopulaire{
+    font-size: 13px;
+    color: grey;
+    font-weight: normal;
+    margin-top: 10%;
+}
+
+.fa-money-bill-wave{
+    color: #0065FC;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+
+.fa-child{
+    color: #0065FC;
+    margin-top: 25%;
+    margin-left: 30%;
+    font-size: 20px;
+}
+
+.fa-heart{
+    color: #0065FC;
+    margin-top: 30%;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+.fa-dog{
+    color: #0065FC;
+    margin-top: 15%;
+    margin-left: 15%;
+    font-size: 25px;
+}
+
+.flexTest{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.flexTest div:nth-child(1){
+    order: 2;
+}
+
+.flexTest div:nth-child(2){
+    order: 3;
+}
+
+.flexTest div:nth-child(3){
+    order: 1;
+}
+
+.flexTest div:nth-child(4){
+    order: 4;
+}
+
+.flexTest div{
+    width: 25%;
 }
