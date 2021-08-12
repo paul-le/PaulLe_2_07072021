@@ -682,3 +682,23 @@ footer{
 .grise{
     color: gray;
 }
+
+#logoHeader{
+    width: 50%;
+}
+
+#logoHeader img{
+    width: 50%;
+}
+
+#menuHeader div:nth-child(1){
+    order:2;
+}
+
+#menuHeader div:nth-child(2){
+    order:3;
+}
+
+#menuHeader div:nth-child(3){
+    order:1;
+}
