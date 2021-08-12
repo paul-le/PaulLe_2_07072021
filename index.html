@@ -16,24 +16,14 @@
     </head>
     <body>
         <header>
-            <nav id="nav1">
-                <div id="logoOnTop"><img class="logoSite" src="public/Images/logo/Reservia@3x.png"></div>
-                <div id="navBar">
-                    <ul id="ulNavBar">
-                        <li class="liNavBar , mobileNavNone"><a href="#hebergementListeSection">Hébergements</a></li>
-                        <li class="liNavBar , mobileNavNone"><a href="#activitesMarseilleListe">Activités</a></li>
-                        <li class="liNavBar"><a href="#">S'inscrire</a></li>
-                    </ul>
+            <div class="navTest">
+                <div id="logoHeader"><img src="public/Images/logo/Reservia@3x.png" class="header-element4"></div>
+                <div id="menuHeader">
+                    <div><a href="#hebergementListeSection" class="header-element1">Hébergements</a></div>
+                    <div><a href="#activitesMarseilleListe" class="header-element2">Activités</a></div>
+                    <div id="sinscrire"><a href='#' class="header-element3">S'inscrire</a></div>
                 </div>
-                <div id="mobileNav">
-                    <div id="navHebergements">
-                        <a href="#hebergementListeSection">Hébergements</a>
-                    </div>
-                    <div id="navActivites">
-                        <a href="#activitesMarseilleListe">Activités</a>
-                    </div>
-                </div>
-            </nav>
+            </div>
         </header>
         <main>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -45,7 +35,7 @@
                     </div>
                     <input type="text" name="location" id="locationText" placeholder="Marseille,France" required>
                     <!-- <input type="submit" value="Rechercher" id="boutonRechercher"> -->
-                    <section id="boutonRechercher"><span id="rechercherToast">Rechercher</span> <i class="fas fa-search"></i>
+                    <section id="boutonRechercher"><span id="rechercherToast">Rechercher</span> <section id="loupeRechercher"><i class="fas fa-search"></i></section>
                     </section>
                 </form>
             </section>

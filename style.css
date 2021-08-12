@@ -9,8 +9,9 @@ body{
 }
 
 header{
-    margin: 0.5%;
-    padding-left: 1%;
+    /* margin: 0.5%;
+    padding-left: 1%; */
+    width: 100%;
 }
 
 nav{
@@ -56,29 +57,6 @@ li{
 .liNavBar{
     display: flex;
     align-items: center;
-}
-
-.liNavBar:hover{
-    border-top: 2px solid #0065FC;
-}
-
-.liNavBar a{
-    color: rgb(31, 31, 31);
-    text-decoration: none;
-}
-
-.liNavBar a:visited{
-    color: rgb(31, 31, 31);
-    text-decoration: none;
-}
-
-.liNavBar a:active{
-    color: rgb(31, 31, 31);
-    text-decoration: none;
-}
-
-.liNavBar a:hover{
-    color: #0065FC;
 }
 
 h1{
@@ -671,6 +649,73 @@ footer{
     color: #0065FC;
 }
 
+#loupeRechercher{
+    display: none;
+}
+
 .grise{
     color: gray;
+}
+
+.navTest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    
+}
+
+.navTest img{
+    width: 100%;
+}
+
+#menuHeader{
+    display:flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1%;
+}
+
+#menuHeader div{
+    padding-top: 10.5%;
+    font-weight: bolder;
+}
+
+#logoHeader{
+    width: 5%;
+    margin-left: 1.35%;
+    padding-top: 1%;
+}
+
+#menuHeader div:hover{
+    border-top: 2px solid #0065FC;
+}
+
+#menuHeader a{
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+}
+
+#menuHeader a:visited{
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+}
+
+#menuHeader a:active{
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+}
+
+#menuHeader a:hover{
+    color: #0065FC;
+}
+
+#sinscrire a:active{
+    color: #0065FC;
+}
+
+#sinscrire a:visited{
+    color: #0065FC;
 }
