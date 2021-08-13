@@ -3,6 +3,7 @@
 
 body{
     margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     font-family: 'Raleway', sans-serif;
@@ -18,12 +19,12 @@ header{
     padding-left: 1%;
 }
 
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
-}
+} */
 
 main{
     margin:0.5%;
@@ -54,37 +55,6 @@ main{
     margin:0;
 }
 
-li{
-    list-style: none;
-}
-
-.liNavBar{
-    display: flex;
-    align-items: center;
-}
-
-.liNavBar:hover{
-    border-top: 2px solid #0065FC;
-}
-
-.liNavBar a{
-    color: rgb(31, 31, 31);
-    text-decoration: none;
-}
-
-.liNavBar a:visited{
-    color: rgb(31, 31, 31);
-    text-decoration: none;
-}
-
-.liNavBar a:active{
-    color: rgb(31, 31, 31);
-    text-decoration: none;
-}
-
-.liNavBar a:hover{
-    color: #0065FC;
-}
 
 h1{
     font-size: 20px;
@@ -100,6 +70,11 @@ article{
     font-family: 'Raleway', sans-serif;
 }
 
+#barreDeRecherche{
+    width: 100%;
+    margin-left: 3%;
+}
+
 form{
     display: flex;
 }
@@ -107,12 +82,13 @@ form{
 #gpsImgBackground{
     background-color: #F2F2F2;
     width: 50px;
+    height: 45px;
     text-align: center;
     border-radius: 10px 0px 0px 10px;
 }
 
 .fa-map-marker-alt{
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 23%;
 }
 
@@ -121,6 +97,10 @@ form{
     border-right: none;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
+    padding-right: 15%;
+    padding-left: 3%;
+    font-size: 20px;
+    color: black;
 }
 
 #boutonRechercher{
@@ -128,7 +108,7 @@ form{
     color: white;
     border: none;
     border-radius: 10px 10px 10px 10px;
-    padding:2.5%
+    padding:3.5%
 }
 
 #rechercherToast{
@@ -190,9 +170,10 @@ input{
 .categorieFiltre{
     display: flex;
     flex-direction: row;
-    margin-left: 3%;
+    margin-left: 0.5%;
     width: 95%;
     flex-wrap: wrap;
+    margin-top: 2%;
 }
 
 #padFiltre{
@@ -498,11 +479,26 @@ footer{
     padding-top: 3%;
     padding-bottom: 3%;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 30%;
+    flex-direction: column;
     margin-left: 4%;
+}
+
+#aPropos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#nosHebergements{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+#assistance{
+    display: flex;
+    flex-direction: column;
 }
 
 #footerNav ul{
@@ -656,7 +652,7 @@ footer{
 }
 
 .flexTest div:nth-child(1){
-    order: 2;
+    order: 1;
 }
 
 .flexTest div:nth-child(2){
@@ -664,15 +660,25 @@ footer{
 }
 
 .flexTest div:nth-child(3){
-    order: 1;
-}
-
-.flexTest div:nth-child(4){
     order: 4;
 }
 
+.flexTest div:nth-child(4){
+    order: 2;
+}
+
+.flexTest{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .flexTest div{
-    width: 25%;
+    width: 50%;
+}
+
+.flexTest img{
+    width: 50%;
 }
 
 .fa-star{
@@ -701,4 +707,79 @@ footer{
 
 #menuHeader div:nth-child(3){
     order:1;
+}
+
+#menuHeader{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap-reverse;
+    border-bottom: 2px solid #F2F2F2;
+    width: 100%;
+}
+
+#divSinscrire{
+    width: 50%;
+    margin-left: 65%;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+
+#menuFlexTest{
+    margin-right: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header-element3{
+    margin-left: 60%;
+    color: #0065FC;
+}
+
+#hebergementMenu{
+    border-bottom: 2px solid #F2F2F2;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+
+#activiteMenu{
+    border-bottom: 2px solid #F2F2F2;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+
+#sinscrireMenu{
+    display: flex;
+    align-items: center;
+}
+
+#sinscrireMenu a{
+    color: #0065FC;
+    font-weight: bold;
+}
+
+#hebergementMenu:hover{
+    border-bottom: 2px solid #0065FC;
+}
+
+#activiteMenu:hover{
+    border-bottom: 2px solid #0065FC;
+}
+
+.flexTest a{
+    text-decoration: none;
+    color: black;
+}
+
+.flexTest a:hover{
+    color: #0065FC;
+}
+
+li{
+    list-style: none;
 }

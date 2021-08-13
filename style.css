@@ -624,7 +624,7 @@ footer{
     width: 100%;
     flex-wrap: wrap;
 }
-
+/* 
 .flexTest div:nth-child(1){
     order: 2;
 }
@@ -639,11 +639,11 @@ footer{
 
 .flexTest div:nth-child(4){
     order: 4;
-}
+} */
 
-.flexTest div{
+/* .flexTest div{
     width: 25%;
-}
+} */
 
 .fa-star{
     color: #0065FC;
@@ -689,10 +689,6 @@ footer{
     padding-top: 1%;
 }
 
-#menuHeader div:hover{
-    border-top: 2px solid #0065FC;
-}
-
 #menuHeader a{
     color: rgb(31, 31, 31);
     text-decoration: none;
@@ -718,4 +714,27 @@ footer{
 
 #sinscrire a:visited{
     color: #0065FC;
+}
+
+#divLogoHeader{
+    width: 80%;
+    margin-left: 1.35%;
+}
+
+#divLogoHeader img{
+    width: 7%;
+}
+
+#hebergementMenu{
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+#activiteMenu{
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+#sinscrireMenu{
+    margin-top: 1%;
 }
