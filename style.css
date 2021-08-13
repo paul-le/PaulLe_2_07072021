@@ -738,3 +738,53 @@ footer{
 #sinscrireMenu{
     margin-top: 1%;
 }
+
+#menuHeader div:hover{
+    border-top: 2px solid #0065FC;
+}
+
+.flexTest a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.flexTest a:active{
+    text-decoration: none;
+}
+
+#hebergementMenu{
+    padding-top: 0.5%;
+}
+
+#hebergementMenu:hover{
+    border-top: 2px solid #0065FC;
+}
+
+#hebergementMenu a:hover{
+    color: #0065FC;
+}
+
+#sinscrireMenu{
+    padding-top: 0.5%;
+}
+
+#sinscrireMenu:hover{
+    border-top: 2px solid #0065FC;
+}
+
+#sinscrireMenu a{
+    color: #0065FC;
+}
+
+#activiteMenu{
+    padding-top: 0.5%;
+}
+
+#activiteMenu:hover{
+    border-top: 2px solid #0065FC;
+}
+
+#divLogoHeader{
+    padding-top: 0.5%;
+}
