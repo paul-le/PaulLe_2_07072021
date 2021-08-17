@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
         <link rel="stylesheet" type="text/css" media="screen and (min-width: 1280px) and (max-width: 1920px)" href="style.css" />
         <link rel="stylesheet" type="text/css" media="screen and (min-width: 760px) and (max-width: 1280px)" href="tablette.css"/>
         <link rel="stylesheet" type="text/css" media="screen and (max-width: 760px)" href="mobile.css"/>
@@ -16,26 +17,8 @@
     </head>
     <body>
         <header>
-            <!-- <div class="navTest">
-                <div id="logoHeader"><img src="public/Images/logo/Reservia@3x.png" class="header-element4"></div>
-                <div id="menuHeader">
-                    <div id="menuFlexTest">
-                        <div class="header-element1">
-                            <a href="#hebergementListeSection" >Hébergements</a>
-                        </div>
-                        <div class="header-element2">
-                            <a href="#activitesMarseilleListe">Activités</a>
-                        </div>
-                    </div>
-                    <div id="divSinscrire">
-                        <div class="header-element3" id="sinscrire">
-                            <a href='#'>S'inscrire</a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <div class="flexTest">
-                <div id="divLogoHeader"><img src="public/Images/logo/Reservia@3x.png" class="header-element4"></div>
+                <div id="divLogoHeader"><img alt="LogoReservia" src="public/Images/logo/Reservia@3x.png" class="header-element4"></div>
                 <div id="hebergementMenu"><a href="#hebergementListeSection" class="header-element1">Hébergements</a></div>
                 <div id="activiteMenu"><a href="#activitesMarseilleListe" class="header-element2">Activités</a></div>
                 <div id="sinscrireMenu"><a href='#' class="header-element3">S'inscrire</a></div>
@@ -43,14 +26,13 @@
         </header>
         <main>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <article>En plein centre ville ou en pleine nature</article><br>
+            <h4>En plein centre ville ou en pleine nature</h4><br>
             <section id="barreDeRecherche">
-                <form action="" method="GET">
+                <form action="#" method="GET">
                     <div id="gpsImgBackground">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <input type="text" name="location" id="locationText" placeholder="Marseille,France" required>
-                    <!-- <input type="submit" value="Rechercher" id="boutonRechercher"> -->
                     <section id="boutonRechercher"><span id="rechercherToast">Rechercher</span> <section id="loupeRechercher"><i class="fas fa-search"></i></section>
                     </section>
                 </form>
@@ -58,7 +40,6 @@
             <section id="sectionFiltre">
                 <span id="padFiltre"> Filtres </span>
                 <section class="categorieFiltre">
-                    <!-- <span class="iconFiltre"></span> -->
                     <section class="liFiltre">
                         <section class="iconFiltreBackground">
                             <i class="fas fa-money-bill-wave"></i>
@@ -93,22 +74,16 @@
                     </section>
                 </section>
             </section>
-            <!-- <div id="ulFiltre">
-                <div class="flexFiltre">
-                    <div><i class="fas fa-heart"></i></div>
-                    <div class="liFiltre"><a href="">Romantique</a></div>
-                </div>
-            </div> -->
             <section id="infoDispo">
                 <i class="fas fa-info"></i>&nbsp;
-                <article>Plus de 500 logements sont disponibles dans cette ville</article>
+                <h4>Plus de 500 logements sont disponibles dans cette ville</h4>
             </section>
             <section id="hebergementListeSection">
                 <section id="hebergementListe">
                     <h2 class="titrePremierGroupe">Hébergements à Marseille</h2>
                     <section id="hebergementListeLigne1">
                         <section class="hebergementCard">
-                            <a href="#"><img class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+                            <a href="#"><img alt="ImageHebergement" class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
                             <section class='belowImgCard'>
                                 <article class="nomHotel">Auberge La Cannebière</article><br>
                                 <article class="prixHotel">Nuit à partir de 25 €</article><br>
@@ -122,7 +97,7 @@
                             </section></a>
                         </section>
                         <section class="hebergementCard">
-                            <a href="#"><img class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                            <a href="#"><img alt="ImageHebergement" class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
                             <section class='belowImgCard'>
                                 <article class="nomHotel">Hôtel du port</article><br>
                                 <article class="prixHotel">Nuit à partir de 52€</article><br>
@@ -136,7 +111,7 @@
                             </section>
                         </section>
                         <section class="hebergementCard">
-                            <a href="#"><img class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                            <a href="#"><img alt="ImageHebergement" class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg">
                                 <section class='belowImgCard'>
                                 <article class="nomHotel">Hôtel Les Mouettes</article><br>
                                 <article class="prixHotel">Nuit à partir de 76€</article><br>
@@ -152,7 +127,7 @@
                     </section>
                     <section id="hebergementListeLigne2">
                         <section class="hebergementCard">
-                            <a href="#"><img class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                            <a href="#"><img alt="ImageHebergement" class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
                                 <section class='belowImgCard'>
                                 <article class="nomHotel">Hôtel de la mer</article><br>
                                 <article class="prixHotel">Nuit à partir de 46€</article><br>
@@ -180,7 +155,7 @@
                             </section>
                         </section>
                         <section class="hebergementCard">
-                            <a href="#"><img class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+                            <a href="#"><img alt="ImageHebergement" class="hebergementListeSectionImg" src="public/Images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
                                 <section class='belowImgCard'>
                                 <article class="nomHotel">Hôtel chez Amina</article><br>
                                 <article class="prixHotel">Nuit à partir de 96€</article><br>
@@ -225,7 +200,7 @@
                     </section>
                     <section class="hebergementCard2">
                         <section class="imageHebergement2">
-                            <a href="#"><img src="public/Images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                            <a href="#"><img alt="ImageHebergement" src="public/Images/hebergements/1_xlarge/aw-creative-VGs8z60yT2c-unsplash.jpg">
                         </section>
                         <section class="infoHebergement2">
                             <section class="nextToImgCard">
@@ -247,7 +222,7 @@
                     </section>
                     <section class="hebergementCard2">
                         <section class="imageHebergement2">
-                            <a href="#"><img src="public/Images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
+                            <a href="#"><img alt="ImageHebergement" src="public/Images/hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                         </section>
                         <section class="nextToImgCard">
                             <section class="infoHebergement2">
@@ -282,7 +257,7 @@
                 <section id="fortEtFrioul">
                     <section id="fortDePomegues">
                         <section>
-                            <a href="#"><img src="public/Images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                            <a href="#"><img alt="Activite" src="public/Images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
                         </section>
                         <section class="nomActivites">
                             Fort de Pomègues
@@ -290,7 +265,7 @@
                     </section>
                     <section id="ilesDuFrioul">
                         <section>
-                            <a href="#"><img src="public/Images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                            <a href="#"><img alt="Activite" src="public/Images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
                         </section>
                         <section class="nomActivites">
                             Îles du Frioul
@@ -299,7 +274,7 @@
                 </section>
                 <section id="parcNationalCalanques">
                     <section>
-                        <a href="#"><img src="public/Images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                        <a href="#"><img alt="Activite" src="public/Images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
                     </section>
                     <section class="nomActivites">
                         Parc National des Calanques
@@ -307,13 +282,13 @@
                 </section>
                 <section id="notreDameEtLongchamp">
                     <section id="notreDame">
-                        <a href="#"><img src="public/Images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                        <a href="#"><img alt="Activite" src="public/Images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg">
                         <section class="nomActivites">
                             Notre-Dame-de-la-Garde
                         </section></a>
                     </section>
                     <section id="longchamp">
-                        <a href="#"><img src="public/Images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                        <a href="#"><img alt="Activite" src="public/Images/activites/1_xlarge/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
                         <section class="nomActivites">
                             Parc Longchamp
                         </section></a>

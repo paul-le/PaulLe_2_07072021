@@ -9,14 +9,22 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 main{
     margin: 0;
     padding: 0;    
+    width: 100%;
 }
 
 header{
-    margin: 0.5%;
+    /* margin: 0.5%;
     padding-left: 1%;
+    width: 100%; */
 }
 
 /* nav{
@@ -25,11 +33,6 @@ header{
     flex-direction: row;
     width: 100%;
 } */
-
-main{
-    margin:0.5%;
-    padding-left: 1%;
-}
 
 #logoOnTop{
     width: 80%;
@@ -59,6 +62,7 @@ main{
 h1{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
+    margin-left: 2%;
 }
 
 h2{
@@ -68,6 +72,7 @@ h2{
 article{
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
+    margin-left: 2%;
 }
 
 #barreDeRecherche{
@@ -127,8 +132,6 @@ input{
     font-family: 'Raleway', sans-serif;
     justify-content: space-around;
     width: 100%;
-    padding: 1%;
-
 }
 
 #sectionFiltre a{
@@ -176,7 +179,8 @@ input{
 }
 
 #padFiltre{
-    padding-top: 1%;
+    padding-top: 5%;
+    margin-left: 2%;
 }
 
 .flexFiltre{
@@ -187,6 +191,8 @@ input{
     display: flex;
     align-items: center;
     margin:3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #infoImg{
@@ -220,13 +226,14 @@ input{
     width: 99%;
     height: 150px;
     padding: 0.1%;
+    margin-left: 0.4%;
     border-radius: 25px 25px 0px 0px;
 }
 
 #hebergementListe{
     display: flex;
     border-radius: 25px 25px 25px 25px;
-    padding: 0.5%;
+    /* padding: 0.5%; */
     width: 100%;
     font-weight: bold;
     flex-direction: column;
@@ -257,11 +264,15 @@ input{
     box-shadow:1px 1px 32px -5px rgba(0,0,0,0.76);
     height: 85%;
     margin-top: 3%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .etoilesSection{
     display: flex;
     flex-direction: row;
+    margin-left: 1.5%;
+    padding-bottom: 3%;
 }
 
 .etoiles{
@@ -359,8 +370,10 @@ input{
 #activitesMarseilleListe{
     display: flex;
     flex-direction: column;
-    margin-left: 1%;
     justify-content: space-around;
+    width: 90%;
+    justify-content: center;
+    margin-left: 5%;
 }
 
 .nomActivites{
@@ -593,6 +606,7 @@ footer{
     margin-top: 15%;
     width: 90%;
     overflow-wrap: break-word;
+    margin-left: auto;
 }
 
 .sectionEtoiles{
