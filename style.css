@@ -315,7 +315,11 @@ input{
     box-shadow:1px 1px 32px -5px rgba(0,0,0,0.76);
     width: 90%;
     justify-content: space-between;
+}
 
+.hebergementCard2 a{
+    display: flex;
+    width: 100%;
 }
 
 /* .hebergementCard3{
@@ -464,7 +468,6 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
     margin-right: 30%;
     margin-left: 4%;
 }
@@ -561,13 +564,11 @@ footer{
     flex-direction: column;
     margin-top: 5%;
     width: 70%;
-    margin-right: 70px;
-    overflow-wrap: break-word;
-    
+    overflow-wrap: break-word; 
 }
 
 .sectionEtoiles{
-    margin-top:15%;
+    margin-top:2%;
     font-size: 10px;
 }
 
@@ -575,7 +576,7 @@ footer{
     font-size: 13px;
     color: grey;
     font-weight: normal;
-    margin-top: 10%;
+    margin-top: 1%;
 }
 
 .fa-money-bill-wave{
@@ -791,4 +792,9 @@ footer{
 
 h4{
     font-weight: 500;
+}
+
+.nomHotel2{
+    font-weight: 900;
+    font-size: 15px;
 }

@@ -293,6 +293,11 @@ input{
 
 .nomHotel{
     font-weight: 900;
+    /* font-size: 15px; */
+}
+
+.nomHotel2{
+    font-weight: 900;
     font-size: 15px;
 }
 
@@ -603,10 +608,10 @@ footer{
 .nextToImgCard{
     display: flex;
     flex-direction: column;
-    margin-top: 15%;
-    width: 90%;
-    overflow-wrap: break-word;
-    margin-left: auto;
+    /* margin-top: 15%; */
+    width: 85%;
+    margin-left: 50px;
+    word-wrap: break-word;
 }
 
 .sectionEtoiles{
@@ -795,4 +800,13 @@ footer{
 
 li{
     list-style: none;
+}
+
+.hebergementCard2 a{
+    display: flex;
+    width: 100%;
+}
+
+h4{
+    margin-left: 2%;
 }
