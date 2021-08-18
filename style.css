@@ -141,7 +141,7 @@ input{
     border: 2px solid #F2F2F2;
     align-items: center;
     display: flex;
-    /* margin-left: 5%; */
+    margin-left: 5%;
 }
 
 .liFiltre:hover{
@@ -161,7 +161,7 @@ input{
 .categorieFiltre{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 3%;
     width: 100%;
 }
@@ -250,6 +250,7 @@ input{
 .etoilesSection{
     display: flex;
     flex-direction: row;
+    padding-bottom: 5%;
 }
 
 .etoiles{
@@ -347,6 +348,8 @@ input{
 .infoHebergement2{
     display: flex;
     flex-direction: column;
+    width: 70%;
+    margin-left: 11%;
 }
 
 #activitesMarseilleListe{
@@ -563,8 +566,6 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 5%;
-    width: 70%;
-    overflow-wrap: break-word; 
 }
 
 .sectionEtoiles{
@@ -601,9 +602,9 @@ footer{
 
 .fa-dog{
     color: #0065FC;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 15%;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .fa-info{
@@ -718,7 +719,7 @@ footer{
 }
 
 #divLogoHeader{
-    width: 80%;
+    width: 75%;
     margin-left: 1.35%;
 }
 
@@ -797,4 +798,14 @@ h4{
 .nomHotel2{
     font-weight: 900;
     font-size: 15px;
+}
+
+.nomHotel3{
+    font-weight: 900;
+    font-size: 20px;
+    width: 50%;
+}
+
+#animauxDiv{
+    width: 75%;
 }

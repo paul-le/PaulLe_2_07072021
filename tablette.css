@@ -281,6 +281,12 @@ input{
     font-size: 20px;
 }
 
+.nomHotel2{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
 .prixHotel{
     font-size: 13px;
 }
@@ -723,7 +729,7 @@ footer{
 }
 
 #divLogoHeader{
-    width: 80%;
+    width: 60%;
     margin-left: 1.35%;
 }
 
