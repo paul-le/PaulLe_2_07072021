@@ -277,6 +277,8 @@ input{
 
 .prixHotel{
     font-size: 13px;
+    color: grey;
+    font-weight: lighter;
 }
 
 #lesPlusPopulaires{
