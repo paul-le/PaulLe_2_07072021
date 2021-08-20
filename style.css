@@ -9,8 +9,6 @@ body{
 }
 
 header{
-    /* margin: 0.5%;
-    padding-left: 1%; */
     width: 100%;
 }
 
@@ -108,6 +106,12 @@ form{
     padding-right: 0.5%;
 }
 
+#boutonRechercher:hover{
+    cursor:pointer;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
 input{
     padding: 1%;
     font-family: 'Raleway', sans-serif;
@@ -148,16 +152,6 @@ input{
     background-color: #0065FC;
 }
 
-/* .iconFiltre{
-    background-color: #DEEBFF;
-    border-radius: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-items: center;
-    padding-top: 8px;
-    color: #0065FC;
-} */
-
 .categorieFiltre{
     display: flex;
     flex-direction: row;
@@ -195,16 +189,7 @@ input{
     margin-bottom: 2%;
 }
 
-/* .hebergementListeSectionImg{
-    width: 270px;
-    height: 140px;
-    padding: 1%;
-    border-radius: 25px 25px 0px 0px;
-} */
-
 .hebergementListeSectionImg{
-    /* width: 375px;
-    height: 200px; */
     object-fit: cover;
     width: 99%;
     height: 150px;
@@ -324,16 +309,6 @@ input{
     display: flex;
     width: 100%;
 }
-
-/* .hebergementCard3{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    padding: 1%;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow:1px 1px 32px -5px rgba(0,0,0,0.76);
-    width: 90%;
-} */
 
 .imageHebergement2{
     width: 30%;
@@ -490,6 +465,10 @@ footer{
     color: black;
 }
 
+#footerNav a:hover{
+    text-decoration: underline;
+}
+
 #footerNav a:active{
     text-decoration: none;
     color: black;
@@ -544,8 +523,6 @@ footer{
     border-radius: 50%;
     align-items: center;
     margin-left: -0.2em;
-    /* margin-top: -0.3em;
-    margin-left: -0.5em */
 }
 
 #mobileNav{
@@ -628,27 +605,6 @@ footer{
     width: 100%;
     flex-wrap: wrap;
 }
-/* 
-.flexTest div:nth-child(1){
-    order: 2;
-}
-
-.flexTest div:nth-child(2){
-    order: 3;
-}
-
-.flexTest div:nth-child(3){
-    order: 1;
-}
-
-.flexTest div:nth-child(4){
-    order: 4;
-} */
-
-/* .flexTest div{
-    width: 25%;
-} */
-
 .fa-star{
     color: #0065FC;
 }
@@ -787,6 +743,11 @@ footer{
 
 #activiteMenu:hover{
     border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+#activiteMenu a:hover{
+    color: #0065FC;
 }
 
 #divLogoHeader{
@@ -811,3 +772,4 @@ h4{
 #animauxDiv{
     width: 75%;
 }
+
