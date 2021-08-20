@@ -78,6 +78,7 @@ article{
 
 form{
     display: flex;
+    margin-bottom: 2%;
 }
 
 #gpsImgBackground{
