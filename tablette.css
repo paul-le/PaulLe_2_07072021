@@ -248,7 +248,6 @@ input{
     padding-bottom: 1%;
     margin: 1%;
     border-radius: 25px 25px 25px 25px;
-    align-items: left;
     box-shadow:1px 1px 32px -5px rgba(0,0,0,0.76);
     width: 30%;
     height: 85%;
@@ -470,7 +469,6 @@ input{
 }
 
 footer{
-    align-items: left;
     width: 100%;
     background-color: #F2F2F2;
 }
